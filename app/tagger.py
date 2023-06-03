@@ -2,7 +2,7 @@ import genius_fetch as gf
 from music_tag import load_file
 
 # Load the mp3 file
-audio_file = load_file('Evanescence - Lithium.mp3')
+audio_file = load_file('path/to/lyrics/file.mp3')
 
 # Read the lyrics from a text file
 with open('path/to/lyrics/file.txt', 'r') as f:
