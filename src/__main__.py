@@ -1,7 +1,6 @@
 import sys
 
-import songscribe
-from songscribe import genius_fetch, tagger
+import genius_fetch, tagger
 
 def main():
     genius_fetch()
