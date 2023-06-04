@@ -1,25 +1,25 @@
 from setuptools import setup
 
 setup(
-    name="realpython-reader",
-    version="1.0.0",
-    description="Read the latest Real Python tutorials",
+    name="songscribe",
+    version="0.1.0",
+    description="A lyrics utility tool that fetches the lyrics and automatically writes to ID3 tag.",
     # long_description=README,
-    long_description_content_type="text/markdown",
-    url="https://github.com/realpython/reader",
-    author="Real Python",
-    author_email="info@realpython.com",
-    license="MIT",
+    # long_description_content_type="text/markdown",
+    url="https://github.com/bluemberg/songscribe",
+    author="bluemberg",
+    # author_email="",
+    license="GPL-3.0",
     classifiers=[
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: GPL-3.0 License",
         "Programming Language :: Python",
         "Programming Language :: Python :: 2",
         "Programming Language :: Python :: 3",
     ],
-    packages=["reader"],
+    packages=["songscribe"],
     include_package_data=True,
     install_requires=[
-        "feedparser", "html2text", "importlib_resources", "typing"
+        "python-dotenv", "lyricsgenius", "music-tag"
     ],
-    entry_points={"console_scripts": ["realpython=reader.__main__:main"]},
+    entry_points={"console_scripts": ["songscribe=songscribe.__main__:main"]},
 )
