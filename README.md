@@ -8,4 +8,4 @@ The application uses:\
 [music-tag](https://github.com/KristoforMaynard/music-tag) library for editing mp3 metadata.
 
 ## Progress
-6% complete.
+WIP.
