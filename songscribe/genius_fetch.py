@@ -19,7 +19,7 @@ song = genius.search_song(title, artist)
 
 lyrics = song.lyrics
 
-filename = f"src/tests/{title} - {artist}.txt"
+filename = f"songscribe/tests/{title} - {artist}.txt"
 
 with open(filename, 'w', encoding="utf-8") as f:
     f.write(lyrics)
